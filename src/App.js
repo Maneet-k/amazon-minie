@@ -1,12 +1,19 @@
+import React from 'react';
+import Navbar from './Components/Navbar';
 import './App.css';
+import Home from './Components/Home';
+import Footer from './Components/Footer';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Happy Hacking!!!
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Home />
+        <Footer />
+      </Router>
+    </>
   );
 }
 

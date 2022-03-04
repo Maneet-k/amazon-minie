@@ -1,0 +1,13 @@
+.product{
+    display: flex;
+    background-color: rgb(161, 181, 187);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.product >img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
